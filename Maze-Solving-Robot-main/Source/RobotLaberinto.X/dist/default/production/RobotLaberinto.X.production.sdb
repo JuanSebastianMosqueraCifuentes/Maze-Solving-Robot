@@ -1,0 +1,425 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F15244 ]
+[d frameptr 6 ]
+"43 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"94 D:\Clases\ELECTRÓNICA DIGITAL II\Robot Laberinto\RobotLaberinto.X\principal.c
+[v _InicializacionPuertos InicializacionPuertos `(v  1 e 1 0 ]
+"166
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"173
+[v _sensor_centro sensor_centro `(v  1 e 1 0 ]
+"206
+[v _sensor_izquierdo sensor_izquierdo `(v  1 e 1 0 ]
+"239
+[v _sensor_derecho sensor_derecho `(v  1 e 1 0 ]
+"272
+[v _InicializacionTimer2 InicializacionTimer2 `(v  1 e 1 0 ]
+"283
+[v _InicializacionPWM3 InicializacionPWM3 `(v  1 e 1 0 ]
+"290
+[v _InicializacionPWM4 InicializacionPWM4 `(v  1 e 1 0 ]
+"297
+[v _PWM3_LoadDutyValue PWM3_LoadDutyValue `(v  1 e 1 0 ]
+"303
+[v _PWM4_LoadDutyValue PWM4_LoadDutyValue `(v  1 e 1 0 ]
+"309
+[v _avanzar avanzar `(v  1 e 1 0 ]
+"346
+[v _giro_derecha giro_derecha `(v  1 e 1 0 ]
+"364
+[v _giro_izquierda giro_izquierda `(v  1 e 1 0 ]
+"382
+[v _detenerse detenerse `(v  1 e 1 0 ]
+"393
+[v _movimientos movimientos `(v  1 e 1 0 ]
+"431
+[v _main main `(v  1 e 1 0 ]
+[s S140 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"511 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16f15244.h
+[u S146 . 1 `S140 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES146  1 e 1 @13 ]
+[s S117 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"553
+[u S126 . 1 `S117 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES126  1 e 1 @14 ]
+"598
+[v _TRISA TRISA `VEuc  1 e 1 @18 ]
+"648
+[v _TRISB TRISB `VEuc  1 e 1 @19 ]
+"687
+[v _TRISC TRISC `VEuc  1 e 1 @20 ]
+"749
+[v _LATA LATA `VEuc  1 e 1 @24 ]
+[s S182 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+]
+"764
+[u S189 . 1 `S182 1 . 1 0 ]
+[v _LATAbits LATAbits `VES189  1 e 1 @24 ]
+"799
+[v _LATB LATB `VEuc  1 e 1 @25 ]
+[s S155 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"813
+[u S161 . 1 `S155 1 . 1 0 ]
+[v _LATBbits LATBbits `VES161  1 e 1 @25 ]
+"838
+[v _LATC LATC `VEuc  1 e 1 @26 ]
+[s S90 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"855
+[u S99 . 1 `S90 1 . 1 0 ]
+[v _LATCbits LATCbits `VES99  1 e 1 @26 ]
+"2395
+[v _TMR1L TMR1L `VEuc  1 e 1 @524 ]
+"2465
+[v _TMR1H TMR1H `VEuc  1 e 1 @525 ]
+"2535
+[v _T1CON T1CON `VEuc  1 e 1 @526 ]
+"2725
+[v _T1GCON T1GCON `VEuc  1 e 1 @527 ]
+"2939
+[v _T1GATE T1GATE `VEuc  1 e 1 @528 ]
+"3105
+[v _T1CLK T1CLK `VEuc  1 e 1 @529 ]
+"3247
+[v _T2TMR T2TMR `VEuc  1 e 1 @652 ]
+"3301
+[v _T2PR T2PR `VEuc  1 e 1 @653 ]
+"3355
+[v _T2CON T2CON `VEuc  1 e 1 @654 ]
+"3501
+[v _T2HLT T2HLT `VEuc  1 e 1 @655 ]
+"3629
+[v _T2CLKCON T2CLKCON `VEuc  1 e 1 @656 ]
+"3709
+[v _T2RST T2RST `VEuc  1 e 1 @657 ]
+"4256
+[v _PWM3DCL PWM3DCL `VEuc  1 e 1 @788 ]
+"4277
+[v _PWM3DCH PWM3DCH `VEuc  1 e 1 @789 ]
+"4297
+[v _PWM3CON PWM3CON `VEuc  1 e 1 @790 ]
+"4360
+[v _PWM4DCL PWM4DCL `VEuc  1 e 1 @792 ]
+"4381
+[v _PWM4DCH PWM4DCH `VEuc  1 e 1 @793 ]
+"4401
+[v _PWM4CON PWM4CON `VEuc  1 e 1 @794 ]
+[s S65 . 1 `uc 1 ADIF 1 0 :1:0 
+`uc 1 SSP1IF 1 0 :1:1 
+`uc 1 BCL1IF 1 0 :1:2 
+`uc 1 TX1IF 1 0 :1:3 
+`uc 1 RC1IF 1 0 :1:4 
+`uc 1 TMR1IF 1 0 :1:5 
+`uc 1 TMR2IF 1 0 :1:6 
+`uc 1 CCP1IF 1 0 :1:7 
+]
+"5139
+[u S74 . 1 `S65 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES74  1 e 1 @1805 ]
+"5793
+[v _OSCEN OSCEN `VEuc  1 e 1 @2193 ]
+"5833
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2194 ]
+"5891
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2195 ]
+"7166
+[v _RA1PPS RA1PPS `VEuc  1 e 1 @7953 ]
+"7804
+[v _RC3PPS RC3PPS `VEuc  1 e 1 @7971 ]
+"8094
+[v _ANSELA ANSELA `VEuc  1 e 1 @7992 ]
+"8139
+[v _WPUA WPUA `VEuc  1 e 1 @7993 ]
+"8189
+[v _ODCONA ODCONA `VEuc  1 e 1 @7994 ]
+"8234
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @7995 ]
+"8279
+[v _INLVLA INLVLA `VEuc  1 e 1 @7996 ]
+"8479
+[v _ANSELB ANSELB `VEuc  1 e 1 @8003 ]
+"8518
+[v _WPUB WPUB `VEuc  1 e 1 @8004 ]
+"8557
+[v _ODCONB ODCONB `VEuc  1 e 1 @8005 ]
+"8596
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @8006 ]
+"8635
+[v _INLVLB INLVLB `VEuc  1 e 1 @8007 ]
+"8791
+[v _ANSELC ANSELC `VEuc  1 e 1 @8014 ]
+"8853
+[v _WPUC WPUC `VEuc  1 e 1 @8015 ]
+"8915
+[v _ODCONC ODCONC `VEuc  1 e 1 @8016 ]
+"8977
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @8017 ]
+"9039
+[v _INLVLC INLVLC `VEuc  1 e 1 @8018 ]
+"11612
+[v _TMR1IF TMR1IF `VEb  1 e 0 @14445 ]
+"11639
+[v _TMR1ON TMR1ON `VEb  1 e 0 @4208 ]
+"11702
+[v _TRISA1 TRISA1 `VEb  1 e 0 @145 ]
+"11705
+[v _TRISA2 TRISA2 `VEb  1 e 0 @146 ]
+"11711
+[v _TRISA4 TRISA4 `VEb  1 e 0 @148 ]
+"11714
+[v _TRISA5 TRISA5 `VEb  1 e 0 @149 ]
+"11717
+[v _TRISB4 TRISB4 `VEb  1 e 0 @156 ]
+"11720
+[v _TRISB5 TRISB5 `VEb  1 e 0 @157 ]
+"11723
+[v _TRISB6 TRISB6 `VEb  1 e 0 @158 ]
+"11726
+[v _TRISB7 TRISB7 `VEb  1 e 0 @159 ]
+"11729
+[v _TRISC0 TRISC0 `VEb  1 e 0 @160 ]
+"11732
+[v _TRISC1 TRISC1 `VEb  1 e 0 @161 ]
+"11738
+[v _TRISC3 TRISC3 `VEb  1 e 0 @163 ]
+"11741
+[v _TRISC4 TRISC4 `VEb  1 e 0 @164 ]
+"11744
+[v _TRISC5 TRISC5 `VEb  1 e 0 @165 ]
+"11747
+[v _TRISC6 TRISC6 `VEb  1 e 0 @166 ]
+"11750
+[v _TRISC7 TRISC7 `VEb  1 e 0 @167 ]
+"81 D:\Clases\ELECTRÓNICA DIGITAL II\Robot Laberinto\RobotLaberinto.X\principal.c
+[v _distanciafrontal distanciafrontal `i  1 e 2 0 ]
+"82
+[v _distanciaizquierda distanciaizquierda `i  1 e 2 0 ]
+"83
+[v _distanciaderecha distanciaderecha `i  1 e 2 0 ]
+"84
+[v _scen scen `a  1 e 1 0 ]
+"85
+[v _sizq sizq `a  1 e 1 0 ]
+"86
+[v _sder sder `a  1 e 1 0 ]
+"87
+[v _conteo_cen conteo_cen `ui  1 e 2 0 ]
+"88
+[v _conteo_izq conteo_izq `ui  1 e 2 0 ]
+"89
+[v _conteo_der conteo_der `ui  1 e 2 0 ]
+"90
+[v _timer1ReloadVal timer1ReloadVal `VEus  1 e 2 0 ]
+"431
+[v _main main `(v  1 e 1 0 ]
+{
+"448
+} 0
+"206
+[v _sensor_izquierdo sensor_izquierdo `(v  1 e 1 0 ]
+{
+"237
+} 0
+"239
+[v _sensor_derecho sensor_derecho `(v  1 e 1 0 ]
+{
+"270
+} 0
+"173
+[v _sensor_centro sensor_centro `(v  1 e 1 0 ]
+{
+"204
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"43 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 62 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 61 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 52 ]
+"70
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S460 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S465 . 4 `i 1 wordA 2 0 `i 1 wordB 2 2 ]
+[u S468 . 4 `l 1 i 4 0 `d 1 f 4 0 `S460 1 fAsBytes 4 0 `S465 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S468  1 a 4 20 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 14 ]
+[s S537 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S540 . 2 `i 1 i 2 0 `ui 1 n 2 0 `S537 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S540  1 a 2 24 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 19 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 18 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 13 ]
+"8
+[v ___flmul@b b `d  1 p 4 0 ]
+[v ___flmul@a a `d  1 p 4 4 ]
+"205
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+{
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v __Umul8_16@word_mpld word_mpld `ui  1 a 2 6 ]
+"5
+[v __Umul8_16@product product `ui  1 a 2 4 ]
+"4
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+[v __Umul8_16@multiplicand multiplicand `uc  1 p 1 0 ]
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 8 ]
+"60
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 46 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 39 ]
+"20
+[v ___fldiv@new_exp new_exp `i  1 a 2 44 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 51 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 50 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 43 ]
+"8
+[v ___fldiv@a a `d  1 p 4 26 ]
+[v ___fldiv@b b `d  1 p 4 30 ]
+"185
+} 0
+"393 D:\Clases\ELECTRÓNICA DIGITAL II\Robot Laberinto\RobotLaberinto.X\principal.c
+[v _movimientos movimientos `(v  1 e 1 0 ]
+{
+"427
+} 0
+"364
+[v _giro_izquierda giro_izquierda `(v  1 e 1 0 ]
+{
+"380
+} 0
+"346
+[v _giro_derecha giro_derecha `(v  1 e 1 0 ]
+{
+"362
+} 0
+"382
+[v _detenerse detenerse `(v  1 e 1 0 ]
+{
+"391
+} 0
+"309
+[v _avanzar avanzar `(v  1 e 1 0 ]
+{
+"312
+[v avanzar@dutyCycleDerecha dutyCycleDerecha `us  1 a 2 7 ]
+"311
+[v avanzar@dutyCycleIzquierda dutyCycleIzquierda `us  1 a 2 5 ]
+"344
+} 0
+"303
+[v _PWM4_LoadDutyValue PWM4_LoadDutyValue `(v  1 e 1 0 ]
+{
+[v PWM4_LoadDutyValue@dutyValue dutyValue `us  1 p 2 0 ]
+"307
+} 0
+"297
+[v _PWM3_LoadDutyValue PWM3_LoadDutyValue `(v  1 e 1 0 ]
+{
+[v PWM3_LoadDutyValue@dutyValue dutyValue `us  1 p 2 0 ]
+"301
+} 0
+"166
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"171
+} 0
+"272
+[v _InicializacionTimer2 InicializacionTimer2 `(v  1 e 1 0 ]
+{
+"281
+} 0
+"94
+[v _InicializacionPuertos InicializacionPuertos `(v  1 e 1 0 ]
+{
+"152
+} 0
+"290
+[v _InicializacionPWM4 InicializacionPWM4 `(v  1 e 1 0 ]
+{
+"295
+} 0
+"283
+[v _InicializacionPWM3 InicializacionPWM3 `(v  1 e 1 0 ]
+{
+"288
+} 0
